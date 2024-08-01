@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Ordem de Serviço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Criar Ordem de Serviço</h1>
+        <form id="orderForm">
+            <label for="customerName">Nome do Cliente:</label>
+            <input type="text" id="customerName" name="customerName" required>
+            <label for="device">Dispositivo:</label>
+            <input type="text" id="device" name="device" required>
+            <label for="description">Descrição do Problema:</label>
+            <textarea id="description" name="description" required></textarea>
+            <button type="submit">Criar Ordem</button>
+        </form>
+        <button onclick="window.location.href='order-list.html'">Ver Ordens de Serviço</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
